@@ -1,19 +1,26 @@
 {
   "name": "@vicimpa/shared-state",
   "version": "1.0.0",
-  "description": "",
+  "description": "Shared state for React",
   "main": "shared-state.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vicimpa/shared-state.git"
   },
   "keywords": [
-    "react", "shared-state", "state", "extends", "shared"
+    "react",
+    "shared-state",
+    "state",
+    "extends",
+    "shared"
   ],
   "author": "PromiSe####",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/vicimpa/shared-state/issues"
   },
-  "homepage": "https://github.com/vicimpa/shared-state#readme"
+  "homepage": "https://github.com/vicimpa/shared-state#readme",
+  "dependencies": {
+    "react": "~17.0.1"
+  }
 }
