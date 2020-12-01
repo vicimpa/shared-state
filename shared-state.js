@@ -70,7 +70,7 @@ function SharedState(state) {
     value(callback) {
       if (!callback)
         while (callback = dispatchList.find(e => e[symbol]))
-          offChange(callback)
+          this.offChange(callback)
 
       let index = -1
 
