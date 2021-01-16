@@ -47,10 +47,10 @@ function SharedState(state) {
         dispatchList.push(dispatcher)
 
         return () => {
-          const index = listeners.indexOf(dispatcher)
+          const index = dispatchList.indexOf(dispatcher)
 
           if (index !== -1)
-            listeners.splice(index, 1)
+            dispatchList.splice(index, 1)
         }
       }, [])
 
